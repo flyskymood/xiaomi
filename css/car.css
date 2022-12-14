@@ -1,0 +1,322 @@
+.header {
+    height: 102px;
+    line-height: 102px;
+    border-bottom: 2px solid#ff6700;
+    background-color: #fff;
+}
+
+.logo_top {
+    width: 56px;
+    height: 56px;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.logo_top h1 {
+    width: 56px;
+    height: 56px;
+}
+
+.logo_top h1 a {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background: url(../images/logo-mi2.png) no-repeat;
+    font-size: 0;
+    background-size: contain;
+}
+
+.nav_l .logo_top {
+    float: left;
+}
+
+.nav_l .titl {
+    float: left;
+}
+
+.nav_l .titl h2 {
+    color: #424242;
+    font-weight: 400;
+}
+
+.nav_r ul li a:hover {
+    color: #ff6700;
+}
+
+.car {
+    background-color: #f5f5f5;
+    padding: 30px 0;
+}
+
+.car-top {
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.list-box {
+    border-top: 1px solid #e0e0e0;
+    height: 116px;
+    background-color: #fff;
+}
+
+.list-box:nth-child(1) {
+    border: 0;
+}
+
+.col {
+    float: left;
+}
+
+.lt {
+    margin-left: 20px;
+}
+
+.lt input {
+    vertical-align: middle;
+}
+
+.colchek {
+    width: 110px;
+}
+
+.list-box .col-sun {
+    padding-left: 20px;
+    color: #ff6700 !important;
+}
+
+.car-top .col-num {
+    padding-left: 30px;
+}
+
+.colchek input {
+    width: 20px;
+    height: 20px;
+}
+
+.col-img {
+    width: 120px;
+}
+
+.col-name {
+    width: 380px;
+}
+
+.col-price {
+    width: 158px;
+}
+
+.col-num {
+    width: 150px;
+}
+
+.col-sun {
+    width: 201px;
+    text-align: center;
+}
+
+.col-ation {
+    width: 80px;
+    text-align: center;
+}
+
+.list-box .colchek input {
+    margin: 30px 0 0 20px;
+}
+
+.list-box .col-num input {
+    float: left;
+    border: none;
+    width: 85px;
+    outline: none;
+    text-align: center;
+    height: 100%;
+}
+
+.list-box .col-num a {
+    float: left;
+    width: 30px;
+    height: 100%;
+    line-height: 32px;
+    text-align: center;
+    color: #757575;
+}
+
+.list-box .col-num a:hover {
+    background-color: #ccc;
+}
+
+.list-box .col-ation {
+    text-align: right;
+}
+
+.list-box .col-name a,
+.list-box .col-price,
+.list-box .col-sun,
+.list-box .col-num,
+.list-box .col-ation {
+    display: inline-block;
+    margin: 30px 0 0 0;
+    color: #424242;
+}
+
+.list-box .col-ation {
+    cursor: pointer;
+}
+
+.list-box .sut {
+    width: 148px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+}
+
+.car-foot {
+    height: 50px;
+    background-color: #fff;
+    margin-top: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+}
+
+.car-foot .left {
+    float: left;
+}
+
+.car-foot .left a {
+    color: #757575;
+    margin-right: 15px;
+}
+
+.car-foot .left a:hover {
+    color: #ff6700;
+}
+
+.car-foot .left > span {
+    color: #757575;
+    border-left: 1px solid #eee;
+    padding-left: 10px;
+}
+
+.car-foot .or {
+    color: #ff6700;
+}
+
+.car-foot .rigth {
+    float: right;
+}
+
+.car-foot .rigth a {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f25807;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+.car-foot .rigth a:hover {
+    opacity: .9;
+}
+
+
+.car-foot .rigth > span {
+    color: #ff6700;
+}
+
+.car-foot .rigth > span span {
+    font-size: 25px;
+}
+
+.big {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #000;
+    opacity: .5; */
+    background-color:rgba(17, 15, 15, 0.5)
+}
+
+.big .cont {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.cont .top {
+    height: 50px;
+    cursor: move;
+}
+
+.cont .top a {
+    float: right;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 100%;
+    margin: 8px 5px 0 0;
+    color: #757575;
+}
+
+.cont .top a:hover {
+    background-color: #e53935;
+    color: #fff;
+}
+
+.cont .centert {
+    height: 140px;
+    color: #424242;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.cont .buttn {
+    height: 80px;
+    background-color: #f5f5f5;
+    padding: 20px 100px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.cont .buttn #suer {
+    float: left;
+    width: 140px;
+    height: 40px;
+    background-color: #f25807;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+.cont .buttn #refush {
+    float: right;
+    width: 140px;
+    height: 40px;
+    background-color: #b0b0b0;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.cont .buttn a:hover {
+    opacity: .9;
+}
+
+
+
+

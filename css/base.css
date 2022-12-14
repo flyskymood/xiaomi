@@ -1,0 +1,37 @@
+/* 基础公共样式 */
+* {
+    margin: 0;
+    padding: 0;
+    /* 内减模式 */
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 清除浮动 */
+.clearfix::before,.clearfix::after {
+    content: '';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?gv4okq');
+    src:  url('../fonts/icomoon.eot?gv4okq#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?gv4okq') format('truetype'),
+      url('../fonts/icomoon.woff?gv4okq') format('woff'),
+      url('../fonts/icomoon.svg?gv4okq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }

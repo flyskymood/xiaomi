@@ -1,0 +1,83 @@
+/* 注册页 */
+.box {
+    height: 910px;
+}
+
+.login {
+    height: 640px;
+}
+
+.dl ul li {
+    width: 354px;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.downlist {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+    background-color: #f9f9f9;
+    font-size: 20px;
+    border-radius: 3px;
+
+}
+
+#btn {
+    margin-top: 40px;
+    width: 358px;
+    height: 60px;
+    border: 0;
+    background-color: #ff5c00;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f9f9f9;
+    border-radius: 4px;
+    opacity: .4;
+}
+
+#serch {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ff5c00;
+}
+
+#fs {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: #aaa;
+    line-height: 40px;
+}
+
+.tb {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin: 10px 0 0 60px;
+}
+
+.tb ol li a {
+    float: left;
+    width: 46px;
+    height: 49px;
+    margin: 0 10px;
+    background: url(../images/12.jpg) no-repeat;
+    border-radius: 4px;
+}
+
+#dt {
+    margin-top: 10px;
+    color: #aaa;
+    font-weight: 400;
+    height: 0;
+}
+
+.color {
+    color: #333;
+}

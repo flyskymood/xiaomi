@@ -1,0 +1,404 @@
+/* 版心 */
+.wrapper {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/* 头部 */
+.header {
+    height: 40px;
+    line-height: 40px;
+    background-color: #333333;
+}
+
+.nav_l {
+    float: left;
+}
+
+.nav_l ul li {
+    position: relative;
+    float: left;
+    height: 38px;
+
+}
+
+.app {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -31px;
+    width: 124px;
+    height: 150px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 1px 5px #aaa;
+    font-size: 14px;
+    color: #333;
+    z-index: 2;
+    padding-top: 30px;
+}
+
+.app img {
+    display: block;
+    width: 85px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.app i {
+    position: absolute;
+    top: -20px;
+    left: 46px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #fff;
+}
+
+.nav_l ul li a {
+    display: inline-block;
+    height: 100%;
+    font-size: 12px;
+    color: #b0b0b0
+}
+
+.nav_l ul li span {
+    margin: 0 .3em;
+    color: #424242;
+}
+
+
+.nav_r {
+    position: relative;
+    float: right;
+}
+
+
+.nav_r ul li {
+    float: left;
+}
+
+.nav_r ul li a {
+    display: inline-block;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0
+}
+
+.nav_r ul li span {
+    margin: 0 0.4em;
+    color: #424242;
+}
+
+.nav_r ul li:nth-child(4) {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #424242;
+    margin-left: 15px;
+}
+
+.nav_r ul li:nth-child(4) a::before {
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.nav_l ul li a:hover,
+.nav_r ul li a:hover {
+    color: #f5f5f5;
+}
+
+.nav_r #car {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -34px;
+    width: 300px;
+    height: 97px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 99px;
+    font-size: 12px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 15%);
+    z-index: 10;
+}
+
+
+
+/* 导航栏 */
+.shotcat {
+    height: 100px;
+    /* background-color: pink; */
+}
+
+.logo {
+    float: left;
+    width: 56px;
+    height: 56px;
+    margin-top: 22px;
+}
+
+.logo h1 {
+    width: 56px;
+    height: 56px;
+}
+
+.logo a {
+    display: block;
+    font-size: 14px;
+    width: 56px;
+    height: 56px;
+    background: url(../images/logo-mi2.png) no-repeat;
+    background-size: contain;
+    /* 隐藏文字 */
+    font-size: 0;
+}
+
+
+.nav {
+    float: left;
+    margin: 40px 0 0 175px;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    font-size: 16px;
+    color: #333333;
+    padding: 26px 10px 38px;
+}
+
+.nav ul li a:hover {
+    color: #ff6700;
+}
+
+
+.serch {
+    position: relative;
+    float: right;
+    /* width: 296px; */
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid #e0e0e0;
+}
+
+.serch:hover {
+    border: 1px solid #ccc;
+}
+
+
+.serch input {
+    float: left;
+    width: 230px;
+    height: 48px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 48px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.serch button {
+    font-family: 'icomoon';
+    width: 64px;
+    height: 48px;
+    border: none;
+    background-color: #fff;
+}
+
+.serch button:hover {
+    background-color: #ff6700;
+}
+
+.serch #serchr {
+    display: none;
+    position: absolute;
+    top: 49px;
+    left: 0;
+    width: 230px;
+    height: 300px;
+    background-color: #fff;
+    z-index: 1;
+    border: 1px solid #ff6700;
+    border-top: 0;
+}
+
+
+
+
+/* 底部 */
+.site-footer {
+    height: 470px;
+    margin-bottom: 40px;
+}
+
+.ft-hd {
+    padding: 27px 0;
+    height: 100px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.ft-hd li {
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+}
+
+.ft-hd li::before {
+    font-family: 'icomoon';
+    content: '\e9b0';
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+
+.ft-hd li:nth-child(1) {
+    border-left: none;
+}
+
+.ft-bd {
+    padding-top: 40px;
+}
+
+.ft-hd li a {
+    color: #616161;
+}
+
+.ft-bd dl {
+    float: left;
+    width: 160px;
+    margin: 0;
+}
+
+.ft-bd dl:nth-child(5) {
+    margin-right: 0;
+}
+
+.ft-bd dl dt {
+    font-size: 14px;
+    line-height: 1.25;
+    margin: -1px 0 26px;
+}
+
+.ft-bd dl dd {
+    font-size: 14px;
+    color: #757575;
+    margin: 10px 0 0;
+}
+
+
+.ft-bd dl:nth-child(1) {
+    margin-left: 160px;
+}
+
+
+.col-contact {
+    float: right;
+    width: 251px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+
+.phone {
+    font-size: 22px;
+    color: #ff6700;
+}
+
+.col-contact p:nth-child(2) {
+    font-size: 12px;
+    margin: 5px 0 5px 0;
+}
+
+.col-contact a {
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+}
+
+.col-contact a::before {
+    content: '\e945';
+    font-family: 'icomoon';
+    margin-right: 5px;
+}
+
+.col-contact a:hover {
+    background-color: #ff6700;
+    color: #f5f5f5;
+}
+
+
+.site-info {
+    height: 260px;
+    background-color: #fafafa;
+    padding-top: 40px;
+}
+
+
+.hd {
+    float: left;
+    width: 56px;
+    height: 56px;
+    background: url(../upload/logo-mi2.png) no-repeat;
+    background-size: 56px;
+    font-size: 0;
+    margin-right: 20px;
+}
+
+.bd {
+    float: left;
+}
+
+.bd p a {
+    color: #757575;
+    font-size: 12px;
+}
+
+.bd p span {
+    display: inline-block;
+    height: 12px;
+    color: #757575;
+    margin: 0 0.25em;
+    border-right: 1px solid #757575;
+    vertical-align: middle;
+}
+
+.bd p span:last-child {
+    border-right: 0;
+}
+
+.bd p:nth-child(3) {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.link {
+    margin-top: 5px;
+}
+
+.link a img {
+    width: auto;
+    height: 28px;    
+}
+
+.bt {
+    margin: 30px 0 0 265px;
+    background: url(../upload/slogan2020.png) no-repeat center 0;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+
